@@ -79,7 +79,7 @@ const ImageUploader = () => {
     <div>
       <DropArea {...getRootProps()}>
         <input {...getInputProps()} />
-        <p>Drag & drop an image here, or click to select one</p>
+        <p>在此处拖放图片，或点击选择一个</p>
       </DropArea>
 
       {uploadedImage && (

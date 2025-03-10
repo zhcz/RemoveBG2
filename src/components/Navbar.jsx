@@ -98,12 +98,12 @@ const Navbar = () => {
       {/* Logo */}
       <Logo>
         <FaEraser />
-        Remove BG
+        移除背景
       </Logo>
 
       {/* Desktop Icons */}
       <div style={{ display: "flex", gap: "1rem" }}>
-        <IconGroup>
+        {/* <IconGroup>
           <a
             href="https://github.com/Eklak-Alam"
             target="_blank"
@@ -113,7 +113,7 @@ const Navbar = () => {
             <FaGithub />
             <span>Github</span>
           </a>
-        </IconGroup>
+        </IconGroup> */}
 
         {/* Switch Button for Theme Toggle */}
         <SwitchContainer onClick={toggleTheme}>
